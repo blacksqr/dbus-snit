@@ -1,0 +1,9 @@
+#
+# Definition of interface used in hello-server.tcl and hello-client.tcl.
+#
+# $Id: hello_interface.def 26 2009-01-05 14:37:34Z al $
+
+Interface com.example.hello.server.Iface {
+    method Hello {in s name, in s country, out s}
+}
+
